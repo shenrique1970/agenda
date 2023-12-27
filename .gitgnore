@@ -6,7 +6,10 @@ __pycache__
 db.sqlite3
 .media/
 .static/
+<<<<<<< HEAD
 .utils/create_contacts.py
+=======
+>>>>>>> 25a91fccf2afb2fb4f7c55eea69d92f2487fa6ad
 
 # Backup files # 
 *.bak 
