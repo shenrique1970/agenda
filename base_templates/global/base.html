@@ -4,11 +4,9 @@
   {% include 'global/partials/_head.html' %}
 </head>
 <body>
-  <header class="header">
-    {% include 'global/partials/_header.html' %}
-    {% include "global/partials/_nav.html" %}
-    {% include "global/partials/_search.html" %}
-  </header>
+  {% include 'global/partials/_header.html' %}
+  {% include 'global/partials/_messages.html' %}
+
   <main class="content">
     {% block content %}{% endblock content %}
     {% include 'global/partials/_pagination.html' %}
