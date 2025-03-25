@@ -1,4 +1,4 @@
-https://vscode.dev/github/shenrique1970/agenda/blob/main/tela.png
+
 # criar projeto
 python -m venv venv
 . venv/bin/activate
