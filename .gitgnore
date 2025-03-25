@@ -4,12 +4,7 @@
 *.pyc
 __pycache__
 db.sqlite3
-.media/
-.static/
-<<<<<<< HEAD
-.utils/create_contacts.py
-=======
->>>>>>> 25a91fccf2afb2fb4f7c55eea69d92f2487fa6ad
+media
 
 # Backup files # 
 *.bak 
@@ -67,6 +62,7 @@ parts/
 sdist/ 
 var/ 
 wheels/ 
+*.whl
 *.egg-info/ 
 .installed.cfg 
 *.egg 
@@ -109,6 +105,8 @@ venv/
 ENV/ 
 env.bak/ 
 venv.bak/ 
+django/
+.django
 
 # mkdocs documentation 
 /site 
@@ -140,5 +138,3 @@ GitHub.sublime-settings
 !.vscode/launch.json 
 !.vscode/extensions.json 
 .history
-ajuda.txt
-django/
